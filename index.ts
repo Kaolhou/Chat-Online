@@ -1,6 +1,6 @@
 const io = require('socket.io')(3001,{
     cors:{
-        origin: ['http://localhost:3000']
+        origin: '*' //['http://localhost:3000',"http://8cfb-2804-431-c7e8-15b2-9d38-994a-61ce-85d3.ngrok.io"]
     }
 })
 
